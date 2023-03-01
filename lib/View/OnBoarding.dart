@@ -2,12 +2,10 @@ import 'dart:async';
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:lottie/lottie.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
-import 'package:voom_task/Shared/AlreadyHaveAccount.dart';
 import 'package:voom_task/Shared/Button.dart';
-import 'package:voom_task/View/AppMain/AppMain.dart';
+import 'package:voom_task/View/AppMain.dart';
 import 'package:voom_task/helpers/cache_helper.dart';
 import 'package:voom_task/helpers/my_application.dart';
 import 'package:voom_task/style/icons_file.dart';

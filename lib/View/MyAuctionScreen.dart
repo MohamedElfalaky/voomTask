@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:voom_task/Shared/Lists.dart';
 import 'package:voom_task/Shared/MyAuctionItems.dart';
 
 class MyAuctionScreen extends StatefulWidget {
@@ -21,12 +22,7 @@ class _MyAuctionScreenState extends State<MyAuctionScreen> {
         margin: EdgeInsets.only(top: 12, left: 12, right: 12),
         child: SingleChildScrollView(
           // reverse: true,
-          child: Column(
-              children: List.generate(
-                  4,
-                  (index) => MyAuctionItems(
-                      // isFavorite: false,
-                      ))),
+          child: Column(children: myAuction),
         ),
       ),
     );

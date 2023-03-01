@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:responsive_framework/responsive_framework.dart';
+import 'package:voom_task/View/AppMain.dart';
+import 'package:voom_task/View/MyAuctionScreen.dart';
 import 'package:voom_task/View/splash_screen.dart';
 import 'package:voom_task/style/icons_file.dart';
 import './helpers/cache_helper.dart';
@@ -43,6 +45,6 @@ class MyApp extends StatelessWidget {
           // primarySwatch: Colors.blue,
           // fontFamily: "Tajawal"
         ),
-        home: const Splash());
+        home: const AppMain());
   }
 }
